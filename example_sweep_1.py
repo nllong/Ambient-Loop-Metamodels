@@ -26,19 +26,19 @@ import seaborn as sns
 
 sys.path.append("..")  # Adds higher directory to python modules path.
 
-from rom.metamodels import Metamodels
-from rom.analysis_definition.analysis_definition import AnalysisDefinition
+from metamodeling.metamodels import Metamodels
+from metamodeling.analysis_definition.analysis_definition import AnalysisDefinition
 
 # Load in the models for analysis
-rom = Metamodels('./model_definitions/smoff.json')
-rom.set_analysis('smoff_parametric_sweep')
+metamodel = Metamodels('./model_definitions/smoff.json')
+metamodel.set_analysis('smoff_parametric_sweep')
 
 # Load the exising models
-if rom.models_exist(
+if metamodel.models_exist(
         'RandomForest',
         models_to_load=['HeatingElectricity', 'DistrictHeatingHotWaterEnergy'],
         root_path='smoff'):
-    rom.load_models(
+    metamodel.load_models(
         'RandomForest',
         models_to_load=['HeatingElectricity', 'DistrictHeatingHotWaterEnergy'],
         root_path='smoff')
@@ -49,9 +49,9 @@ else:
 analysis = AnalysisDefinition('analysis_definitions/smoff-one-year.json')
 analysis.load_weather_file('lib/USA_CO_Golden-NREL.724666_TMY3.epw')
 
-# convert the analysis definition to a dataframe for use in the rom
+# convert the analysis definition to a dataframe for use in the metamodel
 data = analysis.as_dataframe()
-data = rom.yhats(data, 'RF', ['HeatingElectricity', 'DistrictHeatingHotWaterEnergy'])
+data = metamodel.yhats(data, 'RF', ['HeatingElectricity', 'DistrictHeatingHotWaterEnergy'])
 
 # describe the data
 print(data.describe())

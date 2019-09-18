@@ -1,6 +1,6 @@
 # Ambient Loop Metamodels
 
-The ambient loop metamodels use the ROM Framework (soon to be renamed Metamodeling Framework) to generate black box models that can be loaded offline to evaluate various response variables (e.g. outlet water temperature, total heating electricity, total district heating energy, etc.).Prior to this repository existing, the metamodels were developed and stored along side the Framework; however, the Framework is now designed to be included as a dependency and run in context of other Python scripts. 
+The ambient loop metamodels use the Metamodeling Framework (soon to be renamed Metamodeling Framework) to generate black box models that can be loaded offline to evaluate various response variables (e.g. outlet water temperature, total heating electricity, total district heating energy, etc.).Prior to this repository existing, the metamodels were developed and stored along side the Framework; however, the Framework is now designed to be included as a dependency and run in context of other Python scripts. 
 
 ## Using the Models
 
