@@ -1,0 +1,10 @@
+name,model_method,pearson
+DistrictHeatingHotWaterEnergy,LinearModel,0.3070810398904336
+DistrictHeatingHotWaterEnergy,RandomForest,0.8902498917384878
+DistrictHeatingHotWaterEnergy,SVR,0.5529626962727535
+ETSHeatingOutletTemperature,LinearModel,0.983870217256287
+ETSHeatingOutletTemperature,RandomForest,0.9983483583946848
+ETSHeatingOutletTemperature,SVR,0.9855399711566444
+HeatingElectricity,LinearModel,0.2870151610512326
+HeatingElectricity,RandomForest,0.8591201464771325
+HeatingElectricity,SVR,0.5165220348817201

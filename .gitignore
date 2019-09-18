@@ -1,0 +1,28 @@
+.idea
+*.pyc
+*.pkl
+.DS_Store
+.tox
+.python-version
+.ipynb_checkpoints
+.coverage
+
+# never commit these data files because they will be too large
+data/*
+data/*/*.zip
+data/*/simulation_results.csv
+!data/smoff_test/*
+
+# Only save certain pickeled models since they can be very large
+models/*
+!models/smoff_test/
+
+# general folders
+output
+
+# package information
+ROM_Framework.egg-info/
+build
+dist
+docs/build
+
