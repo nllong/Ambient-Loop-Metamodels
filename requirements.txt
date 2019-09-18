@@ -2,5 +2,5 @@
 # none yet
 
 # Metamodeling Framework
--e git+https://github.com/nllong/ROM-Framework.git@update-package#egg=ROM-Framework
+-e git+https://github.com/nllong/ROM-Framework.git@develop#egg=ROM-Framework
 #-e file:../ROM-Framework#egg=ROM-Framework
