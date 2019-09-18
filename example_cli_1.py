@@ -55,7 +55,7 @@ metamodel.set_analysis(args.analysis_id)
 if metamodel.models_exist(args.model_type, models_to_load=args.responses, root_path='smoff'):
     metamodel.load_models(args.model_type, models_to_load=args.responses, root_path='smoff')
 else:
-    raise Exception('ROMs do not exist')
+    raise Exception('Metamodels do not exist')
 
 # put the data into a dataframe for evaluation
 data = {

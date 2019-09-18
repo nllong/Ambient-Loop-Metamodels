@@ -11,16 +11,20 @@ The ambient loop metamodels use the Metamodeling Framework (soon to be renamed M
 
 The metamodels are too large to share using Github, therefore, the user must download the models and place them into the right director(y|ies) to leverage this library.
 
+There is a set of example metamodes that can be used to run the Generate CSVs script (defined below), you must download and install these models into the correct. To do this run the following in the root of this repository:
+
+```bash
+mkdir -p models/smoff_sweep_v2/RandomForest/models
+curl -SL https://openstudio-metamodels.s3.amazonaws.com/smoff_sweep_v2.zip -o models/smoff_sweep_v2/RandomForest/models/smoff_sweep_v2.zip
+unzip -o models/smoff_sweep_v2/RandomForest/models/smoff_sweep_v2.zip -d models/smoff_sweep_v2/RandomForest/models/
+```
+
 #### Generate CSVs
-The example `generate_csvs.py` script loads the office and retail metamodels to generate a 3 dimensions sweep (inlet temperature, hour of day, response variable) and saves CSV files to be loaded into Modelica.
-
-
+Make sure to run the script above to download and extract the existing metamodels. The example `generate_csvs.py` script loads the office and retail metamodels to generate a 3 dimensions sweep (inlet temperature, hour of day, response variable) and saves CSV files to be loaded into Modelica.
 
 ### Saving New Metamodels
 
 To be documented
-
-
 
 ## To Do
 

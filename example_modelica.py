@@ -38,7 +38,7 @@ def load_models(metamodel_filename, model_type, models_to_load):
     if metamodel.models_exist(model_type, models_to_load=models_to_load, root_path='smoff'):
         metamodel.load_models(model_type, models_to_load=models_to_load, root_path='smoff')
     else:
-        raise Exception('ROMs do not exist')
+        raise Exception('Metamodels do not exist')
 
     return metamodel
 

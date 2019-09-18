@@ -37,7 +37,7 @@ if metamodel.models_exist(
         models_to_load=['HeatingElectricity', 'DistrictHeatingHotWaterEnergy'],
         root_path='smoff')
 else:
-    raise Exception('ROMs do not exist')
+    raise Exception('Metamodels do not exist')
 
 # Load in the analysis definition
 analysis = AnalysisDefinition('sweep-temp-test.json')
