@@ -1,6 +1,7 @@
 # Ambient Loop Metamodels
 
-|build| |docs|
+[![Build Status](https://travis-ci.org/nllong/ambient-loop-metamodels.svg?branch=develop)](https://travis-ci.org/nllong/ambient-loop-metamodels) [![Documentation Status](https://readthedocs.org/projects/ambient-loop-metamodels/badge/?version=latest)](https://ambient-loop-metamodels.readthedocs.io/en/latest/?badge=latest)
+  
 
 The ambient loop metamodels use the Metamodeling Framework (soon to be renamed Metamodeling Framework) to generate black box models that can be loaded offline to evaluate various response variables (e.g. outlet water temperature, total heating electricity, total district heating energy, etc.).Prior to this repository existing, the metamodels were developed and stored along side the Framework; however, the Framework is now designed to be included as a dependency and run in context of other Python scripts. 
 
@@ -35,11 +36,3 @@ To be documented
 
 * Provide method to share metamodels by uploading and downloading to a shared S3 account (assuming permissions)
 * Locate the metamodel.json files and the models together
-
-
-.. |build| image:: https://travis-ci.org/nllong/metamodeling-framework.svg?branch=develop
-    :target: https://travis-ci.org/nllong/metamodeling-framework
-
-.. |docs| image:: https://readthedocs.org/projects/metamodeling-framework/badge/?version=latest
-	:target: https://metamodeling-framework.readthedocs.io/en/latest/?badge=latest
-	:alt: Documentation Status
