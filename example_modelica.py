@@ -27,20 +27,20 @@ import sys
 sys.path.append("..")  # Adds higher directory to python modules path.
 
 import pandas as pd
-from rom.metamodels import Metamodels
+from metamodeling.metamodels import Metamodels
 
 
 def load_models(metamodel_filename, model_type, models_to_load):
-    rom = Metamodels(metamodel_filename)
-    rom.set_analysis('smoff_parametric_sweep')
+    metamodel = Metamodels(metamodel_filename)
+    metamodel.set_analysis('smoff_parametric_sweep')
 
     # Load the exising models
-    if rom.models_exist(model_type, models_to_load=models_to_load, root_path='smoff'):
-        rom.load_models(model_type, models_to_load=models_to_load, root_path='smoff')
+    if metamodel.models_exist(model_type, models_to_load=models_to_load, root_path='smoff'):
+        metamodel.load_models(model_type, models_to_load=models_to_load, root_path='smoff')
     else:
-        raise Exception('ROMs do not exist')
+        raise Exception('Metamodels do not exist')
 
-    return rom
+    return metamodel
 
 
 def run_model(values):
@@ -56,7 +56,7 @@ def run_model(values):
         'ETSInletTemperature': float(values[8]),
     }
 
-    # Convert the model integer to correct ROM type
+    # Convert the model integer to correct metamodel type
     if model == 1:
         model = 'LinearModel'
     elif model == 2:
@@ -76,12 +76,12 @@ def run_model(values):
     elif response == 5:
         response = 'ETSOutletTemperature'
 
-    rom = load_models('smoff/metamodels.json', model, [response])
+    metamodel = load_models('smoff/metamodels.json', model, [response])
 
     print('Predicting...')
     df = pd.DataFrame([data])
-    print(rom.yhat(response, df)[0])
-    v = rom.yhat(response, df)[0]
+    print(metamodel.yhat(response, df)[0])
+    v = metamodel.yhat(response, df)[0]
     print(f'Predicted value is {v}')
 
     return v

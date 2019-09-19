@@ -13,8 +13,8 @@ covariates and a few covariates with multiple values to run.
 
 .. moduleauthor:: Nicholas Long (nicholas.l.long@colorado.edu, nicholas.long@nrel.gov)
 """
-from rom.metamodels import Metamodels
-from rom.analysis_definition.analysis_definition import AnalysisDefinition
+from metamodeling.metamodels import Metamodels
+from metamodeling.analysis_definition.analysis_definition import AnalysisDefinition
 
 models = [
     {
@@ -64,31 +64,31 @@ models = [
 for m in models:
     print(f"Running metamodel {m['analysis_name']}")
     # Load in the models for analysis
-    rom = Metamodels('model_definitions/ambient_loop_v2.json')
-    rom.set_analysis(m['analysis_name'])
+    metamodel = Metamodels('model_definitions/ambient_loop_v2.json')
+    metamodel.set_analysis(m['analysis_name'])
 
     # Load the exising models
-    if rom.models_exist(
+    if metamodel.models_exist(
             'RandomForest',
             models_to_load=m['models_to_load'],
             root_path=m['root_path']):
-        rom.load_models(
+        metamodel.load_models(
             'RandomForest',
             models_to_load=m['models_to_load'],
             root_path=m['root_path'])
     else:
-        raise Exception(f"ROMs do not exist in m['root_path']")
+        raise Exception(f"Metamodels do not exist in m['root_path']")
 
     # Load in the analysis definition
     analysis = AnalysisDefinition(m['sweep_file'])
     analysis.load_weather_file('lib/USA_CO_Golden-NREL.724666_TMY3.epw')
 
-    # convert the analysis definition to a dataframe for use in the rom
+    # convert the analysis definition to a dataframe for use in the metamodel
     data = analysis.as_dataframe()
-    data = rom.yhats(data, 'RF', m['models_to_load'])
+    data = metamodel.yhats(data, 'RF', m['models_to_load'])
 
     responses = [f'RF_{r}' for r in m['models_to_load']]
-    rom.save_2d_csvs(data, 'ETSInletTemperature', 'smoff_sweep_v2')
+    metamodel.save_2d_csvs(data, 'ETSInletTemperature', 'smoff_sweep_v2')
 
     # for response in responses:
     #     heatdata = data[["DayOfYear", "Hour", response]].pivot("DayOfYear", "Hour", response)

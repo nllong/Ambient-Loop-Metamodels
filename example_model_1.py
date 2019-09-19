@@ -20,31 +20,31 @@ import sys
 
 sys.path.append("..")  # Adds higher directory to python modules path.
 
-from rom.metamodels import Metamodels
-from rom.analysis_definition.analysis_definition import AnalysisDefinition
+from metamodeling.metamodels import Metamodels
+from metamodeling.analysis_definition.analysis_definition import AnalysisDefinition
 
 # Load in the models for analysis
-rom = Metamodels('./smoff/metamodels.json')
-rom.set_analysis('smoff_sweep_v2')
+metamodel = Metamodels('./smoff/metamodels.json')
+metamodel.set_analysis('smoff_sweep_v2')
 
 # Load the exising models
-if rom.models_exist(
+if metamodel.models_exist(
         'RandomForest',
         models_to_load=['HeatingElectricity', 'DistrictHeatingHotWaterEnergy'],
         root_path='smoff'):
-    rom.load_models(
+    metamodel.load_models(
         'RandomForest',
         models_to_load=['HeatingElectricity', 'DistrictHeatingHotWaterEnergy'],
         root_path='smoff')
 else:
-    raise Exception('ROMs do not exist')
+    raise Exception('Metamodels do not exist')
 
 # Load in the analysis definition
 analysis = AnalysisDefinition('sweep-temp-test.json')
 
-# convert the analysis definition to a dataframe for use in the rom
+# convert the analysis definition to a dataframe for use in the metamodel
 data = analysis.as_dataframe()
-data = rom.yhats(data, 'RF', ['HeatingElectricity', 'DistrictHeatingHotWaterEnergy'])
+data = metamodel.yhats(data, 'RF', ['HeatingElectricity', 'DistrictHeatingHotWaterEnergy'])
 
 # view all the data
 print(data)

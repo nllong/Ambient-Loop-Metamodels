@@ -23,7 +23,7 @@ import pandas as pd
 
 sys.path.append('..')  # Adds higher directory to python modules path.
 
-from rom.metamodels import Metamodels
+from metamodeling.metamodels import Metamodels
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-f', '--file', help='Description file to use', default='metamodels.json')
@@ -48,14 +48,14 @@ args = parser.parse_args()
 # Print out the arguments that are being run
 print(json.dumps(vars(args), indent=2, sort_keys=True))
 
-rom = Metamodels(args.file)
-rom.set_analysis(args.analysis_id)
+metamodel = Metamodels(args.file)
+metamodel.set_analysis(args.analysis_id)
 
 # Load the exising models
-if rom.models_exist(args.model_type, models_to_load=args.responses, root_path='smoff'):
-    rom.load_models(args.model_type, models_to_load=args.responses, root_path='smoff')
+if metamodel.models_exist(args.model_type, models_to_load=args.responses, root_path='smoff'):
+    metamodel.load_models(args.model_type, models_to_load=args.responses, root_path='smoff')
 else:
-    raise Exception('ROMs do not exist')
+    raise Exception('Metamodels do not exist')
 
 # put the data into a dataframe for evaluation
 data = {
@@ -69,5 +69,5 @@ data = {
 }
 df = pd.DataFrame([data])
 for response in args.responses:
-    v = rom.yhat(response, df)
+    v = metamodel.yhat(response, df)
     print(v[0])
