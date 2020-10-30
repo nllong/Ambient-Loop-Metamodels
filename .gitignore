@@ -8,10 +8,10 @@
 .coverage
 
 # never commit these data files because they will be too large
-data/*
-data/*/*.zip
-data/*/simulation_results.csv
-!data/smoff_test/*
+!simulations/smoff_test/*
+simulations/*/simulation_results.csv
+simulations/*/*.zip
+simulations/*
 
 # Only save certain pickeled models since they can be very large
 models/*

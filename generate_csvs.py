@@ -13,8 +13,8 @@ covariates and a few covariates with multiple values to run.
 
 .. moduleauthor:: Nicholas Long (nicholas.l.long@colorado.edu, nicholas.long@nrel.gov)
 """
-from metamodeling.metamodels import Metamodels
 from metamodeling.analysis_definition.analysis_definition import AnalysisDefinition
+from metamodeling.metamodels import Metamodels
 
 models = [
     {

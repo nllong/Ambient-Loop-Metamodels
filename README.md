@@ -2,13 +2,46 @@
 
 [![Build Status](https://travis-ci.org/nllong/ambient-loop-metamodels.svg?branch=develop)](https://travis-ci.org/nllong/ambient-loop-metamodels) [![Documentation Status](https://readthedocs.org/projects/ambient-loop-metamodels/badge/?version=latest)](https://ambient-loop-metamodels.readthedocs.io/en/latest/?badge=latest)
   
-
-The ambient loop metamodels use the Metamodeling Framework (soon to be renamed Metamodeling Framework) to generate black box models that can be loaded offline to evaluate various response variables (e.g. outlet water temperature, total heating electricity, total district heating energy, etc.).Prior to this repository existing, the metamodels were developed and stored along side the Framework; however, the Framework is now designed to be included as a dependency and run in context of other Python scripts. 
+The ambient loop metamodels use the Metamodeling Framework to generate black box models that can be loaded offline to evaluate various response variables (e.g. outlet water temperature, total heating electricity, total district heating energy, etc.). Prior to this repository existing, the metamodels were developed and stored along side the Framework; however, the Framework is now designed to be included as a dependency and run in context of other Python scripts. 
 
 ## Using the Models
 
+### Creating and Processing Simulations Files
+
+The first thing to do is to create a parametric analysis of the desired building energy model. This is typically done using OpenStudio's PAT Application.
+
+If using PAT, then the download_bem_results.py can be used to save the results and post process the results in preparation for the metamodeling.
+
+* Update the ID and PAT server information in the `download_bem_results.py` file
+* Run the script to download the data from OpenStudio Server
+
+```bash
+python download_bem_results.py
+```
+
+* Downselect the variables of interest from the `all_json_variables.json` and save as a new file `selected_json_variables.json`.
+* Update the simulation directory name in the `process_data.py` file
+* Run the postprocessing script
+
+```bash
+python process_data.py
+``` 
+
 ### Creating New Metamodels
 
+The first requirement is to update the model_definitions for the new metamodel. The model definitions contain the data required to generate the data model including the parameters of each of the requested metamodel. The model_definitions folder contains some entries that can be copied, pasted, then updated as needed.
+
+```bash
+metamodel.py inspect -f model_definitions/all_metamodels.json -a smoff_test -m RandomForest
+metamodel.py build -f model_definitions/all_metamodels.json -a smoff_test -m RandomForest
+metamodel.py evaluate -f model_definitions/all_metamodels.json -a smoff_test -m RandomForest
+
+# or for a specific model 
+metamodel.py inspect -f model_definitions/all_metamodels.json -a smoff_sweep_v2 -m RandomForest -d 0.005
+metamodel.py build -f model_definitions/all_metamodels.json -a smoff_sweep_v2 -m RandomForest -d 0.005
+metamodel.py evaluate -f model_definitions/all_metamodels.json -a smoff_sweep_v2 -m RandomForest -d 0.005
+metamodel.py validate -f model_definitions/all_metamodels.json -a smoff_sweep_v2 -m RandomForest -d 0.005
+```
 
 ### Using Existing Metamodels
 
@@ -24,7 +57,7 @@ There is a set of example metamodes that can be used to run the Generate CSVs sc
 ./download_test_metamodels.sh .
 ```
 
-#### Generate CSVs
+#### Generate Metamodel Result CSVs
 
 Make sure to run the script above to download and extract the existing metamodels. The example `generate_csvs.py` script loads the office and retail metamodels to generate a 3 dimensions sweep (inlet temperature, hour of day, response variable) and saves CSV files to be loaded into Modelica.
 
