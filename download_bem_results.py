@@ -6,10 +6,10 @@ from metamodeling.post_process.json_processor import JsonProcessorFile
 from metamodeling.post_process.openstudio_server import OpenStudioServerAPI
 
 # Set the analysis ID to the current id from OpenStudio server.
-ANALYSIS_ID = "50573866-0450-4962-bd51-fe1a1cf8a104"
-DOWNLOAD_NAME = "dc_medium_office_v3"
-# SERVER_URL = "http://bball-130553.nrel.gov"
-SERVER_URL = "http://localhost"
+ANALYSIS_ID = "489db9b0-7cc1-41f8-800f-6aa50d791e0b"
+DOWNLOAD_NAME = "smoff_sweep_v2"
+SERVER_URL = "http://bball-130590.nrel.gov"
+# SERVER_URL = "http://localhost"
 SERVER_PORT = "8080"
 
 base_dir = os.path.join(os.path.dirname(__file__), "simulations", DOWNLOAD_NAME)

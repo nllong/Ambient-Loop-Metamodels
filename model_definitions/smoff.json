@@ -1,6 +1,5 @@
 [
   {
-    "results_directory": "smoff_parametric_sweep",
     "building_type": "Small Office",
     "name": "smoff_parametric_sweep",
     "display_name": "Small Office Varying Inlet Temp",

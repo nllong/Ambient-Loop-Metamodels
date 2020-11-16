@@ -1,6 +1,5 @@
 [
   {
-    "results_directory": "smoff_parametric_sweep_v2",
     "building_type": "Small Office",
     "name": "smoff_parametric_sweep",
     "display_name": "Small Office Varying Inlet Temp",
@@ -136,7 +135,6 @@
     ]
   },
   {
-    "results_directory": "retail_parametric_sweep",
     "building_type": "Retail",
     "name": "retail_parametric_sweep",
     "display_name": "Retail Varying Inlet Temp",
@@ -272,7 +270,6 @@
     ]
   },
   {
-    "results_directory": "smoff_sweep_v2",
     "building_type": "Small Office",
     "name": "smoff_sweep_v2",
     "display_name": "Small Office Parametric Sweep",
@@ -449,7 +446,6 @@
     ]
   },
   {
-    "results_directory": "smoff_sweep_no_ets_v2",
     "building_type": "Small Office",
     "name": "smoff_sweep_no_ets_v2",
     "display_name": "Small Office Parametric Sweep No ETS",
@@ -588,7 +584,6 @@
     ]
   },
   {
-    "results_directory": "retail_sweep_v2",
     "building_type": "Retail",
     "name": "retail_sweep_v2",
     "display_name": "Retail Parametric Sweep",
@@ -767,7 +762,6 @@
     ]
   },
   {
-    "results_directory": "retail_sweep_no_ets_v2",
     "building_type": "Retail",
     "name": "retail_sweep_no_ets_v2",
     "display_name": "Retail Parametric Sweep No ETS",
@@ -908,7 +902,6 @@
     ]
   },
   {
-    "results_directory": "medoff_sweep",
     "building_type": "Medium Office",
     "name": "medoff_sweep",
     "display_name": "Medium Office Parametric Sweep",
@@ -1086,7 +1079,6 @@
     ]
   },
   {
-    "results_directory": "hospital_sweep",
     "building_type": "Hospital",
     "name": "hospital_sweep",
     "display_name": "Hospital Parametric Sweep",
@@ -1264,7 +1256,6 @@
     ]
   },
   {
-    "results_directory": "hospital_sweep_no_ets",
     "building_type": "Hospital",
     "name": "hospital_sweep_no_ets",
     "display_name": "Hospital Parametric Sweep No ETS",
@@ -1405,7 +1396,6 @@
     ]
   },
   {
-    "results_directory": "restaurant_sweep",
     "building_type": "Restaurant",
     "name": "restaurant_sweep",
     "display_name": "Restaurant Parametric Sweep",
@@ -1583,7 +1573,6 @@
     ]
   },
   {
-    "results_directory": "primaryschool_sweep",
     "building_type": "Primary School",
     "name": "primaryschool_sweep",
     "display_name": "Primary School Parametric Sweep",
@@ -1737,7 +1726,6 @@
     ]
   },
   {
-    "results_directory": "midriseapartment_sweep",
     "building_type": "Midrise Apartment",
     "name": "midriseapartment_sweep",
     "display_name": "Midrise Apartment Parametric Sweep",

@@ -1,10 +1,10 @@
 [
   {
-    "results_directory": "smoff_parametric_sweep_v2",
     "building_type": "Small Office",
     "name": "smoff_parametric_sweep",
     "display_name": "Small Office Varying Inlet Temp",
     "description": "100 Simulations, varying inlet temperature and delta-T",
+    "results_file": "../simulations/smoff_parametric_sweep/simulation_results.csv",
     "validation_datapoint_id": "21e6f96e-387b-4d99-89d5-9aeb89d1fc08",
     "downsamples": [0.01, 0.02, 0.03, 0.05, 0.15, 0.25, 1.0],
     "algorithm_options": {
@@ -136,11 +136,11 @@
     ]
   },
   {
-    "results_directory": "retail_parametric_sweep",
     "building_type": "Retail",
     "name": "retail_parametric_sweep",
     "display_name": "Retail Varying Inlet Temp",
     "description": "100 Simulations, varying inlet temperature and delta-T",
+    "results_file": "../simulations/retail_parametric_sweep/simulation_results.csv",
     "validation_datapoint_id": "1682190d-51cd-4576-8b10-865aaeaa3da2",
     "downsamples": [0.01, 0.02, 0.03, 0.05, 0.15, 0.25, 1.0],
     "algorithm_options": {
@@ -272,12 +272,12 @@
     ]
   },
   {
-    "results_directory": "smoff_test",
     "building_type": "Small Office Test",
     "name": "smoff_test",
     "display_name": "Small Office Test Dataset",
     "description": "8 Simulations",
-    "validation_datapoint_id": "9f1e2940-c9f9-48e0-bf33-fee869fe0b3a",
+    "results_file": "../simulations/smoff_test/simulation_results.csv",
+    "validation_datapoint_id": "94f04594-e835-4125-87e9-98d44c174ee6",
     "downsamples": [0.15, 1.0],
     "algorithm_options": {
       "RandomForest": {
@@ -393,16 +393,17 @@
     ]
   },
   {
-    "results_directory": "smoff_sweep_v2",
     "building_type": "Small Office",
     "name": "smoff_sweep_v2",
     "display_name": "Small Office Parametric Sweep",
     "description": "Approximately 2300 simulations, varying covariates.",
+    "results_file": "../simulations/smoff_sweep_v2/simulation_results.csv",
     "validation_datapoint_id": "first",
+    "downsamples": [0.001, 0.002, 0.003, 0.005, 0.015, 0.15],
     "algorithm_options": {
       "RandomForest": {
         "_comments": "If downsamples are specified here, then they will override the parent values",
-        "downsamples": [0.001, 0.002, 0.003, 0.005, 0.015],
+        "downsamples": [0.001, 0.002, 0.003, 0.005, 0.015, 0.15],
         "param_grid": {
           "_comments": "max_depth - default is None, max_features - default is p/3, min_samples_leaf - default is 1, min_samples_split - default is 2, n_estimators - default is 10",
           "max_depth": [null, 3, 6],
@@ -570,11 +571,11 @@
     ]
   },
   {
-    "results_directory": "smoff_sweep_no_ets_v2",
     "building_type": "Small Office",
     "name": "smoff_sweep_no_ets_v2",
     "display_name": "Small Office Parametric Sweep No ETS",
     "description": "Approximately 2300 simulations, varying covariates.",
+    "results_file": "../simulations/smoff_sweep_no_ets_v2/simulation_results.csv",
     "validation_datapoint_id": "first",
     "algorithm_options": {
       "RandomForest": {
@@ -709,11 +710,11 @@
     ]
   },
   {
-    "results_directory": "retail_sweep_v2",
     "building_type": "Retail",
     "name": "retail_sweep_v2",
     "display_name": "Retail Parametric Sweep",
     "description": "Approximately 2300 simulations, varying covariates.",
+    "results_file": "../simulations/retail_sweep_v2/simulation_results.csv",
     "validation_datapoint_id": "first",
     "downsamples": [0.001, 0.002, 0.003, 0.005, 0.015, 0.025, 0.1],
     "algorithm_options": {
@@ -888,11 +889,11 @@
     ]
   },
   {
-    "results_directory": "retail_sweep_no_ets_v2",
     "building_type": "Retail",
     "name": "retail_sweep_no_ets_v2",
     "display_name": "Retail Parametric Sweep No ETS",
     "description": "Approximately 2300 simulations, varying covariates.",
+    "results_file": "../simulations/retail_sweep_no_ets_v2/simulation_results.csv",
     "validation_datapoint_id": "first",
     "downsamples": [0.001, 0.002, 0.003, 0.005, 0.015, 0.025, 0.1],
     "algorithm_options": {
@@ -1029,11 +1030,11 @@
     ]
   },
   {
-    "results_directory": "medoff_sweep",
     "building_type": "Medium Office",
     "name": "medoff_sweep",
     "display_name": "Medium Office Parametric Sweep",
     "description": "Approximately 2300 simulations, varying covariates.",
+    "results_file": "../simulations/medoff_sweep/simulation_results.csv",
     "validation_datapoint_id": "f039981a-bc06-4697-8c00-b61410fba621",
     "downsamples": [0.001, 0.002, 0.003, 0.005, 0.015, 0.025, 0.1],
     "algorithm_options": {
@@ -1207,11 +1208,11 @@
     ]
   },
   {
-    "results_directory": "hospital_sweep",
     "building_type": "Hospital",
     "name": "hospital_sweep",
     "display_name": "Hospital Parametric Sweep",
     "description": "Approximately 2300 simulations, varying covariates.",
+    "results_file": "../simulations/hospital_sweep/simulation_results.csv",
     "validation_datapoint_id": "56c01e5f-2315-47bd-976f-7c24b3011560",
     "downsamples": [0.001, 0.002, 0.003, 0.005, 0.015, 0.025, 0.1],
     "algorithm_options": {
@@ -1385,11 +1386,11 @@
     ]
   },
   {
-    "results_directory": "restaurant_sweep",
     "building_type": "Restaurant",
     "name": "restaurant_sweep",
     "display_name": "Restaurant Parametric Sweep",
     "description": "Approximately 600 simulations, varying covariates.",
+    "results_file": "../simulations/restaurant_sweep/simulation_results.csv",
     "validation_datapoint_id": "ea4f6d52-e555-4029-9a16-898d219ffe1f",
     "downsamples": [0.001, 0.002, 0.003, 0.005, 0.015, 0.025, 0.1],
     "algorithm_options": {
@@ -1563,11 +1564,11 @@
     ]
   },
   {
-    "results_directory": "primaryschool_sweep",
     "building_type": "Primary School",
     "name": "primaryschool_sweep",
     "display_name": "Primary School Parametric Sweep",
     "description": "Approximately 700 simulations, varying covariates.",
+    "results_file": "../simulations/primaryschool_sweep/simulation_results.csv",
     "validation_datapoint_id": "b85b1f19-77a7-4168-9414-f8250db403d5",
     "downsamples": [0.001, 0.002, 0.003, 0.005, 0.015, 0.025, 0.1],
     "algorithm_options": {
@@ -1717,11 +1718,11 @@
     ]
   },
   {
-    "results_directory": "midriseapartment_sweep",
     "building_type": "Midrise Apartment",
     "name": "midriseapartment_sweep",
     "display_name": "Midrise Apartment Parametric Sweep",
     "description": "Approximately 2300 simulations, varying covariates.",
+    "results_file": "../simulations/midriseapartment_sweep/simulation_results.csv",
     "validation_datapoint_id": "72d418d4-300b-4672-852b-f701afef4f9d",
     "downsamples": [0.001, 0.002, 0.003, 0.005],
     "algorithm_options": {

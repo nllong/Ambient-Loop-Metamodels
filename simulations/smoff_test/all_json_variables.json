@@ -1,0 +1,1770 @@
+[
+  {
+    "file": "results.json",
+    "data": [
+      {
+        "level_1": "ambient_loop_prototype_building_by_location",
+        "level_2": "building_type",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "ambient_loop_prototype_building_by_location",
+        "level_2": "template",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "ambient_loop_prototype_building_by_location",
+        "level_2": "weather_file_name",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "ambient_loop_prototype_building_by_location",
+        "level_2": "applicable",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "ambient_loop_add_ets_system",
+        "level_2": "applicable",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "ambient_loop_temperature_setpoint",
+        "level_2": "setpoint_temperature",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "ambient_loop_temperature_setpoint",
+        "level_2": "design_delta",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "ambient_loop_temperature_setpoint",
+        "level_2": "applicable",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "hot_water_loop_design_temperature",
+        "level_2": "hot_water_temperature",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "hot_water_loop_design_temperature",
+        "level_2": "applicable",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "remove_all_doors",
+        "level_2": "applicable",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_window_to_wall_ratio",
+        "level_2": "wwr",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_window_to_wall_ratio",
+        "level_2": "sillHeight",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_window_to_wall_ratio",
+        "level_2": "applicable",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_roof_insulation_r_value",
+        "level_2": "roof_r",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_roof_insulation_r_value",
+        "level_2": "applicable",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_exterior_wall_insulation_r_value",
+        "level_2": "wall_r",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_exterior_wall_insulation_r_value",
+        "level_2": "applicable",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_heat_pump_heating_coil_rated_cop",
+        "level_2": "heat_cop",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_heat_pump_heating_coil_rated_cop",
+        "level_2": "applicable",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_heat_pump_cooling_coil_rated_cop",
+        "level_2": "cool_cop",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_heat_pump_cooling_coil_rated_cop",
+        "level_2": "applicable",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "internal_loads_multiplier",
+        "level_2": "lpd_multiplier",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "internal_loads_multiplier",
+        "level_2": "epd_multiplier",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "internal_loads_multiplier",
+        "level_2": "people_per_floor_area_multiplier",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "internal_loads_multiplier",
+        "level_2": "lpd_average",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "internal_loads_multiplier",
+        "level_2": "epd_average",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "internal_loads_multiplier",
+        "level_2": "ppl_average",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "internal_loads_multiplier",
+        "level_2": "applicable",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "shift_schedule_profile_time",
+        "level_2": "schedule",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "shift_schedule_profile_time",
+        "level_2": "dist",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "shift_schedule_profile_time",
+        "level_2": "shift_ll",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "shift_schedule_profile_time",
+        "level_2": "shift_ul",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "shift_schedule_profile_time",
+        "level_2": "shift_ct",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "shift_schedule_profile_time",
+        "level_2": "applicable",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_schedule_profile_start_end_times",
+        "level_2": "schedule",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_schedule_profile_start_end_times",
+        "level_2": "new_start",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_schedule_profile_start_end_times",
+        "level_2": "new_end",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_schedule_profile_start_end_times",
+        "level_2": "applicable",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "building_summary_section",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "annual_overview_section",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "monthly_overview_section",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "utility_bills_rates_section",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "envelope_section_section",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "space_type_breakdown_section",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "space_type_details_section",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "interior_lighting_section",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "plug_loads_section",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "exterior_light_section",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "water_use_section",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "hvac_load_profile",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "zone_condition_section",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "zone_summary_section",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "zone_equipment_detail_section",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "air_loops_detail_section",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "plant_loops_detail_section",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "outdoor_air_section",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "cost_summary_section",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "source_energy_section",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "schedules_overview_section",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "building_name",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "total_site_energy",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "net_site_energy",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "total_building_area",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "total_site_eui",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "eui",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "unmet_hours_during_heating",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "unmet_hours_during_cooling",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "unmet_hours_during_occupied_heating",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "unmet_hours_during_occupied_cooling",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "unmet_hours_tolerance_heating",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "unmet_hours_tolerance_cooling",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_heating",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_cooling",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_interior_lighting",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_exterior_lighting",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_interior_equipment",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_exterior_equipment",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_fans",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_pumps",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_heat_rejection",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_humidification",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_heat_recovery",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_water_systems",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_refrigeration",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_generators",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "fuel_electricity",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "fuel_natural_gas",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "fuel_additional_fuel",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "fuel_district_cooling",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "fuel_district_heating",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_electricity_heating",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_electricity_cooling",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_electricity_interior_lighting",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_electricity_exterior_lighting",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_electricity_interior_equipment",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_electricity_exterior_equipment",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_electricity_fans",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_electricity_pumps",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_electricity_heat_rejection",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_electricity_humidification",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_electricity_heat_recovery",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_electricity_water_systems",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_electricity_refrigeration",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_electricity_generators",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_natural_gas_heating",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_natural_gas_cooling",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_natural_gas_interior_lighting",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_natural_gas_exterior_lighting",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_natural_gas_interior_equipment",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_natural_gas_exterior_equipment",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_natural_gas_fans",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_natural_gas_pumps",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_natural_gas_heat_rejection",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_natural_gas_humidification",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_natural_gas_heat_recovery",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_natural_gas_water_systems",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_natural_gas_refrigeration",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "end_use_natural_gas_generators",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "electricity_heating_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "electricity_cooling_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "electricity_interior_lighting_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "electricity_exterior_lighting_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "electricity_interior_equipment_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "electricity_exterior_equipment_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "electricity_fans_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "electricity_pumps_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "electricity_heat_rejection_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "electricity_humidification_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "electricity_heat_recovery_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "electricity_water_systems_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "electricity_refrigeration_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "electricity_generators_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "electricity_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "natural_gas_heating_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "natural_gas_cooling_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "natural_gas_interior_lighting_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "natural_gas_exterior_lighting_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "natural_gas_interior_equipment_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "natural_gas_exterior_equipment_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "natural_gas_fans_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "natural_gas_pumps_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "natural_gas_heat_rejection_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "natural_gas_humidification_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "natural_gas_heat_recovery_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "natural_gas_water_systems_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "natural_gas_refrigeration_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "natural_gas_generators_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "natural_gas_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "additional_fuel_heating_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "additional_fuel_cooling_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "additional_fuel_interior_lighting_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "additional_fuel_exterior_lighting_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "additional_fuel_interior_equipment_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "additional_fuel_exterior_equipment_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "additional_fuel_fans_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "additional_fuel_pumps_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "additional_fuel_heat_rejection_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "additional_fuel_humidification_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "additional_fuel_heat_recovery_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "additional_fuel_water_systems_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "additional_fuel_refrigeration_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "additional_fuel_generators_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "additional_fuel_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_cooling_heating_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_cooling_cooling_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_cooling_interior_lighting_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_cooling_exterior_lighting_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_cooling_interior_equipment_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_cooling_exterior_equipment_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_cooling_fans_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_cooling_pumps_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_cooling_heat_rejection_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_cooling_humidification_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_cooling_heat_recovery_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_cooling_water_systems_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_cooling_refrigeration_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_cooling_generators_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_cooling_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_heating_heating_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_heating_cooling_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_heating_interior_lighting_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_heating_exterior_lighting_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_heating_interior_equipment_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_heating_exterior_equipment_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_heating_fans_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_heating_pumps_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_heating_heat_rejection_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_heating_humidification_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_heating_heat_recovery_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_heating_water_systems_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_heating_refrigeration_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_heating_generators_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "district_heating_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "water_heating_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "water_cooling_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "water_interior_lighting_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "water_exterior_lighting_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "water_interior_equipment_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "water_exterior_equipment_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "water_fans_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "water_pumps_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "water_heat_rejection_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "water_humidification_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "water_heat_recovery_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "water_water_systems_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "water_refrigeration_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "water_generators_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "water_ip",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "typical_iead_roof_r_20_83_adj_roof_insulation",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "typical_insulated_exterior_mass_floor_r_13_51",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "typical_insulated_exterior_mass_wall_r_11_11_adj_ext_wall_insulation",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "u_0_52_shgc_0_40_dbl_ref_d_clr_6_mm_13_mm_air",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "gross_window_wall_ratio",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "gross_window_wall_ratio_conditioned",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "skylight_roof_ratio",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "space_type_office_attic",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "space_type_office_whole_building_sm_office",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "exterior_lighting_total_power",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "exterior_lighting_total_consumption",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "main_service_water_use_0_06_gal_min",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "inflation_approach",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "analysis_length",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "annual_peak_electric_demand",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "first_year_capital_cost",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "annual_utility_cost",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "total_lifecycle_cost",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "applicable",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "template",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "check_eui_reasonableness",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "check_eui_reasonableness_tol",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "check_eui_by_end_use",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "check_eui_by_end_use_tol",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "check_mech_sys_part_load_eff",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "check_mech_sys_part_load_eff_tol",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "check_mech_sys_capacity",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "check_simultaneous_heating_and_cooling",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "check_simultaneous_heating_and_cooling_max_tol",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "check_internal_loads",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "check_internal_loads_tol",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "check_schedules",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "check_schedules_tol",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "check_envelope_conductance",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "check_envelope_conductance_tol",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "check_domestic_hot_water",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "check_domestic_hot_water_tol",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "check_mech_sys_efficiency",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "check_mech_sys_efficiency_tol",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "check_mech_sys_type",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "check_supply_air_and_thermostat_temp_difference",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "check_supply_air_and_thermostat_temp_difference_tol",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "eui_reasonableness",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "end_use_by_category",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "mechanical_system_part_load_efficiency",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "mechanical_system_capacity",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "simultaneous_heating_and_cooling",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "internal_loads",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "schedules",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "envelope_r_value",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "domestic_hot_water",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "mechanical_system_efficiency",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "mechanical_system_type",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "supply_and_zone_air_temperature",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "total_qaqc_flags",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "generic_qaqc",
+        "level_2": "applicable",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "ambient_loop_reports",
+        "level_2": "energyplus_runtime",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "ambient_loop_reports",
+        "level_2": "applicable",
+        "rename_to": "",
+        "order": 1
+      }
+    ]
+  },
+  {
+    "file": "variables.json",
+    "data": [
+      {
+        "level_1": "_id",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "name",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "run_start_time",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "run_end_time",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "status",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "status_message",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "ambient_loop_temperature_setpoint.design_delta",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "ambient_loop_temperature_setpoint.setpoint_temperature",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "internal_loads_multiplier.epd_multiplier",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "internal_loads_multiplier.lpd_multiplier",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_exterior_wall_insulation_r_value.wall_r",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_heat_pump_cooling_coil_rated_cop.cool_cop",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_heat_pump_heating_coil_rated_cop.heat_cop",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_roof_insulation_r_value.roof_r",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_schedule_profile_start_end_times.new_end",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_schedule_profile_start_end_times.new_start",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_window_to_wall_ratio.wwr",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results.annual_peak_electric_demand",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results.district_cooling_ip",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results.district_heating_ip",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results.electricity_ip",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results.eui",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results.total_site_eui",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results.unmet_hours_during_occupied_cooling",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results.unmet_hours_during_occupied_heating",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "data_point_uuid",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      }
+    ]
+  }
+]

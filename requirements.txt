@@ -2,8 +2,10 @@
 # none yet
 
 # Metamodeling Framework
--e git+https://github.com/nllong/metamodeling-framework.git@develop#egg=metamodeling-framework
-#-e file:../metamodeling-framework#egg=metamodeling-framework
+#-e git+https://github.com/nllong/metamodeling-framework.git@develop#egg=metamodeling-framework
+-e file:../metamodeling-framework#egg=metamodeling-framework
+
+statsmodels
 
 # development and testing
 tox==3.13.2
