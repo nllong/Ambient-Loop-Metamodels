@@ -1,0 +1,306 @@
+[
+  {
+    "file": "results.json",
+    "data": [
+      {
+        "level_1": "ambient_loop_prototype_building_by_location",
+        "level_2": "building_type",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "ambient_loop_prototype_building_by_location",
+        "level_2": "template",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "ambient_loop_prototype_building_by_location",
+        "level_2": "weather_file_name",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "ambient_loop_temperature_setpoint",
+        "level_2": "setpoint_temperature",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "ambient_loop_temperature_setpoint",
+        "level_2": "design_delta",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "hot_water_loop_design_temperature",
+        "level_2": "hot_water_temperature",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_window_to_wall_ratio",
+        "level_2": "wwr",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_roof_insulation_r_value",
+        "level_2": "roof_r",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_exterior_wall_insulation_r_value",
+        "level_2": "wall_r",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_heat_pump_heating_coil_rated_cop",
+        "level_2": "heat_cop",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_heat_pump_cooling_coil_rated_cop",
+        "level_2": "cool_cop",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "internal_loads_multiplier",
+        "level_2": "lpd_multiplier",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "internal_loads_multiplier",
+        "level_2": "epd_multiplier",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "internal_loads_multiplier",
+        "level_2": "people_per_floor_area_multiplier",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "internal_loads_multiplier",
+        "level_2": "lpd_average",
+        "rename_to": "lpd_average",
+        "order": 1
+      },
+      {
+        "level_1": "internal_loads_multiplier",
+        "level_2": "epd_average",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "internal_loads_multiplier",
+        "level_2": "ppl_average",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_schedule_profile_start_end_times",
+        "level_2": "new_start",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_schedule_profile_start_end_times",
+        "level_2": "new_end",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "net_site_energy",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "total_building_area",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "total_site_eui",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "unmet_hours_during_heating",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "unmet_hours_during_cooling",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "unmet_hours_during_occupied_heating",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "unmet_hours_during_occupied_cooling",
+        "rename_to": "",
+        "order": 1
+      }
+    ]
+  },
+  {
+    "file": "variables.json",
+    "data": [
+      {
+        "level_1": "_id",
+        "level_2": null,
+        "rename_to": "id",
+        "order": 1
+      },
+      {
+        "level_1": "name",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "run_start_time",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "run_end_time",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "status",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "status_message",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "ambient_loop_temperature_setpoint.design_delta",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "ambient_loop_temperature_setpoint.setpoint_temperature",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_exterior_wall_insulation_r_value.wall_r",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_heat_pump_cooling_coil_rated_cop.cool_cop",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_heat_pump_heating_coil_rated_cop.heat_cop",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_roof_insulation_r_value.roof_r",
+        "level_2": null,
+        "rename_to": "roof.r_value",
+        "order": 1
+      },
+      {
+        "level_1": "set_schedule_profile_start_end_times.new_end",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_schedule_profile_start_end_times.new_start",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "set_window_to_wall_ratio.wwr",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results.annual_peak_electric_demand",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results.district_cooling_ip",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results.district_heating_ip",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results.electricity_ip",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results.eui",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results.total_site_eui",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results.unmet_hours_during_occupied_cooling",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results.unmet_hours_during_occupied_heating",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      }
+    ]
+  }
+]
