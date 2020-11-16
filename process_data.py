@@ -95,22 +95,6 @@ for index, csv_file in enumerate(files):
     df.loc[filter_1 & filter_2, 'ETSInletTemperature'] = \
         tmp['District Cooling Chilled Water Energy'] / tmp['total_district_energy'] * tmp['District Cooling Outlet Temperature'] + \
         tmp['District Heating Hot Water Energy'] / tmp['total_district_energy'] * tmp['District Heating Outlet Temperature']
-    # print(df[filter_1].describe())
-    # print(df[filter_2].describe())
-    # print(df[filter_1 & filter_2].describe())
-
-
-    # df.where(, -100)
-    # df.where(df['District  Water Energy'] > 0, -500)
-    #
-    # df[df[''] > 0 & df['District  Hot Water Energy'] > 0]['ETSInletTemperature'] = -100
-    # for _index, row in df.iterrows():
-    #     if row[] > 0 and :
-    #         row['ETSInletTemperature'] = -111111
-    #     elif row['District Cooling Chilled Water Energy'] > 0:
-    #         row['ETSInletTemperature'] = df['District Cooling Outlet Temperature']
-    #     elif row['District Heating Hot Water Energy'] > 0:
-    #         row['ETSInletTemperature'] = df['District Heating Outlet Temperature']
 
     json_results = process_directory(dir, json_variable_file, len(df.index))
     print(f"  finished processing JSON in {time.time() - start} seconds")
@@ -146,7 +130,7 @@ main_df = None
 for index, csv_file in enumerate(files):
     start = time.time()
 
-    print(f"Aggregating directory: {dir}")
+    print(f"Aggregating file: {csv_file}")
 
     df = pd.read_csv(csv_file)
     if index == 0:
