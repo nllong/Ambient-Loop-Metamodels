@@ -25,3 +25,6 @@ ROM_Framework.egg-info/
 build
 dist
 docs/build
+
+# do not save the temp figs from the jupyter notebooks
+fig_*.png

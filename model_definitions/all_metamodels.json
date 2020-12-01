@@ -399,11 +399,11 @@
     "description": "Approximately 2300 simulations, varying covariates.",
     "results_file": "../simulations/smoff_sweep_v2/simulation_results.csv",
     "validation_datapoint_id": "first",
-    "downsamples": [0.001, 0.002, 0.003, 0.005, 0.015, 0.15],
+    "downsamples": [0.001, 0.002, 0.003, 0.005, 0.015],
     "algorithm_options": {
       "RandomForest": {
         "_comments": "If downsamples are specified here, then they will override the parent values",
-        "downsamples": [0.001, 0.002, 0.003, 0.005, 0.015, 0.15],
+        "downsamples": [0.001, 0.002, 0.003, 0.005, 0.015],
         "param_grid": {
           "_comments": "max_depth - default is None, max_features - default is p/3, min_samples_leaf - default is 1, min_samples_split - default is 2, n_estimators - default is 10",
           "max_depth": [null, 3, 6],

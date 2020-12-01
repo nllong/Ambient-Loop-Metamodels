@@ -6,7 +6,7 @@ import time
 import pandas as pd
 
 # Set the download name to the file that you want to process
-# DOWNLOAD_NAME = "smoff_sweep_v2"
+#DOWNLOAD_NAME = "smoff_sweep_v2"
 DOWNLOAD_NAME = "smoff_test"
 base_dir = os.path.join(os.path.dirname(__file__), "simulations", DOWNLOAD_NAME)
 json_variable_file = os.path.join(base_dir, 'selected_json_variables.json')
@@ -78,6 +78,7 @@ for index, csv_file in enumerate(files):
     df = pd.read_csv(csv_file)
     print(f"  finished reading results csv in {time.time() - start} seconds")
 
+    start = time.time()
     # Determine the ETS inlet temperature
     # By default use the district heating hot water as the default. When there is no heating and cooling, the
     # district cooling temp is the same as the district heating temp.
@@ -100,12 +101,14 @@ for index, csv_file in enumerate(files):
     print(f"  finished processing JSON in {time.time() - start} seconds")
 
     # load new data and fill down the data to the same number of rows in the CSV file
+    start = time.time()
     df2 = pd.DataFrame(json_results)
     print(f"  finished creating JSON-based dataframe in {time.time() - start} seconds")
     # df2 = pd.concat([df2] * len(df.index), ignore_index=True)
     # print(f"  finished extending JSON-based dataframe in {time.time() - start} seconds")
 
     # append the columns
+    start = time.time()
     df = pd.concat([df, df2], axis=1)
     print(f"  finished concatenating JSON-based dataframe in {time.time() - start} seconds")
 
@@ -123,25 +126,29 @@ for index, csv_file in enumerate(files):
     # make sure to drop a column as well
     df.to_csv(os.path.join(dir, 'processed.csv'), index=False)
 
-# Now process all of the directories and store one large CSV file
+# aggregate as text files which will be must faster than dataframes
+# process all of the directories and store one large CSV file
+lines = None
+header = None
 files = glob.glob(f"{base_dir}/*/processed.csv")
-
-main_df = None
 for index, csv_file in enumerate(files):
     start = time.time()
 
     print(f"Aggregating file: {csv_file}")
-
-    df = pd.read_csv(csv_file)
     if index == 0:
-        main_df = df
+        with open(csv_file, 'r') as file:
+            lines = file.readlines()
+            header = lines.pop(0)
+    # elif index > 3:
+    #     break
     else:
-        # check that the columns are the same
-        col_diff = list(set(main_df.columns) - set(df.columns))
-        if len(col_diff) != 0:
-            print(f"Uh oh, columns don't match {col_diff}, skipping dataframe")
-        else:
-            main_df = pd.concat([main_df, df], sort=False)
+        with open(csv_file, 'r') as file:
+            new_lines = file.readlines()
+            new_header = new_lines.pop(0)
+            if new_header != header:
+                print(f"Uh oh, columns don't match, skipping dataframe. {header} <> {new_header}")
+            else:
+                lines += new_lines
 
     print(f"  finished combining results in {time.time() - start} seconds")
     # df.to_csv(os.path.join(dir, 'data.out'), index=False)
@@ -150,8 +157,14 @@ for index, csv_file in enumerate(files):
 
 # go through all the column names are remove any spaces - this reads the last dataframe, df, processed in the loop.
 print(f"Saving simulation_results file")
+start = time.time()
 simulation_results_file = os.path.join(base_dir, 'simulation_results.csv')
-main_df.to_csv(simulation_results_file, index=False)
+with open(simulation_results_file, 'w') as file:
+    file.write(header)
+    for line in lines:
+        file.write(line)
+print(f"  finished aggregating results in {time.time() - start} seconds")
+# main_df.to_csv(simulation_results_file, index=False)
 
 # if there is a desire to see runtime performance of measures, then look at this gist:
 #    https://gist.github.com/nllong/d17836137bc5d90b7783e1403a38e867
