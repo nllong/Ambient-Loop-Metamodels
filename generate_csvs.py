@@ -77,7 +77,7 @@ for m in models:
             models_to_load=m['models_to_load'],
             root_path=m['root_path'])
     else:
-        raise Exception(f"Metamodels do not exist in m['root_path']")
+        raise Exception(f"Metamodels do not exist in {m['root_path']}")
 
     # Load in the analysis definition
     analysis = AnalysisDefinition(m['sweep_file'])

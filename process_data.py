@@ -6,7 +6,7 @@ import time
 import pandas as pd
 
 # Set the download name to the file that you want to process
-#DOWNLOAD_NAME = "smoff_sweep_v2"
+# DOWNLOAD_NAME = "smoff_sweep_v2"
 DOWNLOAD_NAME = "smoff_test"
 base_dir = os.path.join(os.path.dirname(__file__), "simulations", DOWNLOAD_NAME)
 json_variable_file = os.path.join(base_dir, 'selected_json_variables.json')
@@ -71,7 +71,7 @@ for index, csv_file in enumerate(files):
 
     print(f"Processing directory: {dir}")
     if os.path.exists(os.path.join(dir, 'processed.csv')):
-        print(f"  directory has already been processed, skipping")
+        print("  directory has already been processed, skipping")
         continue
 
     # add the JSON data to the time series data. Each row gets the same data as it qualifies the simulation
@@ -156,7 +156,7 @@ for index, csv_file in enumerate(files):
     #     break
 
 # go through all the column names are remove any spaces - this reads the last dataframe, df, processed in the loop.
-print(f"Saving simulation_results file")
+print("Saving simulation_results file")
 start = time.time()
 simulation_results_file = os.path.join(base_dir, 'simulation_results.csv')
 with open(simulation_results_file, 'w') as file:

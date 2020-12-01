@@ -60,5 +60,3 @@ if r:
     print("It is recommended to rename this file and cull to only the variable of desire before post processing")
 else:
     print("All JSON variable file was NOT updated")
-
-
